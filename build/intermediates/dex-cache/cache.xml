@@ -2,39 +2,32 @@
 <items version="2" >
 
     <item
-        jar="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\pre-dexed\debug\classes-29cd6aad8f4a3b3bd2b8490937da7feec9df029e.jar" />
-    </item>
-    <item
-        jar="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="D:\Matt\Android Studio Projects\Prototest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-67ebf2cc0407fe2cee5e92b552ee8418af760f6f.jar" />
+        <dex dex="D:\Matt\Android Studio Projects\Prototest\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-cda442c135758b6a0e90907ab34459329c814486.jar" />
     </item>
     <item
-        jar="D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-d468e72c8ea79625b7615186601440b8d5bb481e.jar" />
+        <dex dex="D:\Matt\Android Studio Projects\Prototest\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-9bf1d213943db23f4e011f81ddb18ec553ef7d86.jar" />
     </item>
     <item
-        jar="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="D:\Matt\Android Studio Projects\Prototest\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\pre-dexed\debug\classes-a65e70ff4c4e6d6980551a600e57736fc4d1849b.jar" />
+        <dex dex="D:\Matt\Android Studio Projects\Prototest\app\build\intermediates\pre-dexed\debug\classes-3a52857d247f871cdc2984e99efe33a34aa70d1d.jar" />
     </item>
     <item
-        jar="D:\Users\Matt\AndroidStudioProjects\Prototest\app\libs\protobuf-java-2.6.0.jar"
+        jar="D:\Matt\Android Studio Projects\Prototest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="88ba32feefe385d5dc284b71f649201eabd15778">
-        <dex dex="D:\Users\Matt\AndroidStudioProjects\Prototest\app\build\intermediates\pre-dexed\debug\protobuf-java-2.6.0-047da3f11089b3c6de21ae201c474e89214e2908.jar" />
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Matt\Android Studio Projects\Prototest\app\build\intermediates\pre-dexed\debug\classes-0cd113ccd2c049f9ef13c1c7faefc7938b33319c.jar" />
     </item>
 
 </items>
