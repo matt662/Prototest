@@ -6,6 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+
 import com.google.transit.realtime.GtfsRealtime.*;
 import com.google.protobuf.*;
 
@@ -20,6 +22,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button GObutton = (Button)findViewById(R.id.goButton);
+        final EditText stopIDEdit = (EditText)findViewById(R.id.editText);
 
         GObutton.setOnClickListener(
                 new Button.OnClickListener() {
@@ -28,8 +31,16 @@ public class MainActivity extends ActionBarActivity {
                             URL url = new URL("http://opendata.hamilton.ca/GTFS-RT/GTFS_TripUpdates.pb");
                             InputStream is = url.openStream();
                             FeedMessage realdata = FeedMessage.parseFrom(is);
+                            String times="";
                             for (FeedEntity entity : realdata.getEntityList()){
-                                //if(!entity.)
+                                if(!entity.hasTripUpdate())continue;
+                                TripUpdate trip = entity.getTripUpdate();
+                                if (!trip.hasTrip())continue;
+                                TripUpdate.StopTimeUpdate stopTime = trip.getStopTimeUpdate();//TODO find out which id to use for getStopTimeUpdate
+                                if (stopTime.getStopId().equals(stopIDEdit.getText().toString())){
+                                    TripUpdate.StopTimeEvent stopEventArrival = stopTime.getArrival();
+                                    times = times +", " + String.valueOf(stopEventArrival.getTime());
+                                }
                             }
                         }
                         catch(Exception e){
