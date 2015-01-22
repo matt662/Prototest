@@ -20,7 +20,7 @@
         </activity>
 
         <service
-            android:name=".PBFetchService"
+            android:name=".FetchTimesService"
             android:exported="false" >
         </service>
     </application>
