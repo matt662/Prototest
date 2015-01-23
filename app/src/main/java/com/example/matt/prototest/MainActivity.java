@@ -12,6 +12,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 
 public class MainActivity extends ActionBarActivity {
 
@@ -20,19 +26,21 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button GObutton = (Button)findViewById(R.id.goButton);
-        final EditText stopIDEdit = (EditText)findViewById(R.id.editText);
-
+        final EditText stopCodeEdit = (EditText)findViewById(R.id.editText);
         GObutton.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
+                        String stopId; //not what is posted on bus stop sign
+                        stopId = translateStopId(stopCodeEdit.getText().toString()); //stop code is what is posted on bus stop sign
                         Intent fetchTimesIntent = new Intent(v.getContext(), FetchTimesService.class);
                         fetchTimesIntent.putExtra("receiver",new TimesReciever(new Handler()));
-                        fetchTimesIntent.putExtra("stopID",stopIDEdit.getText().toString());
+                        fetchTimesIntent.putExtra("stopID",stopId);
                         startService(fetchTimesIntent);
 
                     }
                 }
         );    }
+
 
 
     @Override
@@ -55,6 +63,25 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private String translateStopId(String stopCode){
+        String stopId = "";
+
+        try {
+            InputStreamReader is = new InputStreamReader(getAssets().open("stops.txt"));
+            BufferedReader reader = new BufferedReader(is);
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] RowData = line.split(",");
+                if (stopCode.equals(RowData[2]))stopId = RowData[4];
+            }
+            is.close();
+        }
+        catch (IOException ex) {
+            // handle exception
+        }
+        return stopId;
     }
 
     class TimesReciever extends ResultReceiver {
