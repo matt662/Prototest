@@ -53,7 +53,7 @@ public class FetchTimesService extends IntentService {
                     if (stopTime.getStopId().equals(stopId)){
                         TripUpdate.StopTimeEvent stopEventArrival = stopTime.getArrival();
                         long unixSeconds = stopEventArrival.getTime();
-                        Date date = new Date(unixSeconds*1000);
+                        Date date = new Date(unixSeconds*1000);//the time the pb files give us needs to be scaled up buy 1000
                         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
                         String formattedDate = sdf.format(date);
                         System.out.println(String.valueOf(stopEventArrival.getTime()));
