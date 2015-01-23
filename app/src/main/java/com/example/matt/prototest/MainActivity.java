@@ -33,7 +33,7 @@ public class MainActivity extends ActionBarActivity {
                         String stopId; //not what is posted on bus stop sign
                         stopId = translateStopId(stopCodeEdit.getText().toString()); //stop code is what is posted on bus stop sign
                         Intent fetchTimesIntent = new Intent(v.getContext(), FetchTimesService.class);
-                        fetchTimesIntent.putExtra("receiver",new TimesReciever(new Handler()));
+                        fetchTimesIntent.putExtra("receiver",new timesReceiver(new Handler()));
                         fetchTimesIntent.putExtra("stopID",stopId);
                         startService(fetchTimesIntent);
 
@@ -84,8 +84,8 @@ public class MainActivity extends ActionBarActivity {
         return stopId;
     }
 
-    class TimesReciever extends ResultReceiver {
-        public TimesReciever(Handler handler){
+    class timesReceiver extends ResultReceiver {
+        public timesReceiver(Handler handler){
             super(handler);
         }
         @Override

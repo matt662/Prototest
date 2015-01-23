@@ -54,10 +54,10 @@ public class FetchTimesService extends IntentService {
                         TripUpdate.StopTimeEvent stopEventArrival = stopTime.getArrival();
                         long unixSeconds = stopEventArrival.getTime();
                         Date date = new Date(unixSeconds*1000);
-                        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss z");
+                        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
                         String formattedDate = sdf.format(date);
                         System.out.println(String.valueOf(stopEventArrival.getTime()));
-                        times = times + ", " + formattedDate;
+                        times = times + formattedDate +"\n";
                     }
                 }
             }
