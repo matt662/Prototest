@@ -29,11 +29,652 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2621bfd-c2ed-41e7-b58a-8570f4cccdcf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\.idea\libraries\appcompat_v7_21_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\.idea\libraries\support_annotations_21_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\.idea\libraries\support_v4_21_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\descriptor.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\descriptor.pb.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\descriptor_database.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\dynamic_message.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\extension_set.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\extension_set_heavy.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\generated_message_reflection.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\generated_message_util.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\message.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\message_lite.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-test_util.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_custom_options.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_embed_optimize_for.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_empty.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_import.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_import_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_import_public.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_import_public_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_lite_imports_nonlite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_mset.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_no_generic_services.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lazy_descriptor_test-unittest_optimize_for.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lite_test-lite_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lite_test-test_util_lite.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lite_test-unittest_import_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lite_test-unittest_import_public_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_lite_test-unittest_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-descriptor_database_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-descriptor_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-dynamic_message_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-extension_set_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-generated_message_reflection_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-message_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-reflection_ops_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-repeated_field_reflection_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-repeated_field_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-test_util.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-text_format_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_custom_options.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_embed_optimize_for.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_empty.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_import.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_import_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_import_public.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_import_public_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_lite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_lite_imports_nonlite.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_mset.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_no_generic_services.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unittest_optimize_for.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-unknown_field_set_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\protobuf_test-wire_format_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\reflection_ops.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\repeated_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\service.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\text_format.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\unknown_field_set.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\wire_format.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.deps\wire_format_lite.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\descriptor.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\descriptor.pb.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\descriptor_database.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\dynamic_message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\extension_set.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\extension_set_heavy.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\generated_message_reflection.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\generated_message_util.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\message_lite.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\reflection_ops.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\repeated_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\service.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\text_format.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\unknown_field_set.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\wire_format.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\.libs\wire_format_lite.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\code_generator.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\command_line_interface.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\importer.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\main.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\parser.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\plugin.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\plugin.pb.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\protobuf_test-command_line_interface_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\protobuf_test-importer_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\protobuf_test-mock_code_generator.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\protobuf_test-parser_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\subprocess.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\test_plugin-mock_code_generator.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\test_plugin-test_plugin.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.deps\zip_writer.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\code_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\command_line_interface.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\importer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\parser.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\plugin.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\plugin.pb.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\subprocess.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\.libs\zip_writer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\code_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\code_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\code_generator.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\code_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\command_line_interface.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\command_line_interface.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\command_line_interface.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\command_line_interface.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\command_line_interface_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_enum.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_enum_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_extension.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_file.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_generator.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_helpers.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_message.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_message_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_primitive_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_service.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\cpp_string_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\protobuf_lazy_descriptor_test-cpp_test_bad_identifiers.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\protobuf_lazy_descriptor_test-cpp_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\protobuf_test-cpp_bootstrap_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\protobuf_test-cpp_plugin_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\protobuf_test-cpp_test_bad_identifiers.pb.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.deps\protobuf_test-cpp_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_enum.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_enum_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_extension.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_file.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_helpers.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_message_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_primitive_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_service.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\.libs\cpp_string_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_bootstrap_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_enum_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_extension.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_extension.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_extension.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_extension.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_file.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_file.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_file.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_file.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_generator.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_helpers.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_helpers.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_helpers.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_helpers.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_message_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_options.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_plugin_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_primitive_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_primitive_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_primitive_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_primitive_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_service.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_service.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_service.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_service.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_string_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_string_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_string_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_string_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_test_bad_identifiers.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_test_bad_identifiers.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_test_bad_identifiers.proto" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\cpp\cpp_unittest.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\importer.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\importer.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\importer.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\importer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\importer_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_context.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_doc_comment.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_enum.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_enum_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_extension.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_file.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_generator.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_generator_factory.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_helpers.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_lazy_message_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_message.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_message_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_name_resolver.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_primitive_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_service.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_shared_code_generator.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\java_string_field.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\protobuf_test-java_doc_comment_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.deps\protobuf_test-java_plugin_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_context.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_doc_comment.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_enum.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_enum_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_extension.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_file.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_generator_factory.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_helpers.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_lazy_message_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_message_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_name_resolver.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_primitive_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_service.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_shared_code_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\.libs\java_string_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_context.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_context.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_context.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_context.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_doc_comment.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_doc_comment.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_doc_comment.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_doc_comment.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_doc_comment_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_enum_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_extension.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_extension.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_extension.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_extension.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_file.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_file.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_file.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_file.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator_factory.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator_factory.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator_factory.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_generator_factory.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_helpers.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_helpers.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_helpers.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_helpers.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_lazy_message_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_lazy_message_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_lazy_message_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_lazy_message_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_message_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_name_resolver.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_name_resolver.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_name_resolver.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_name_resolver.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_plugin_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_primitive_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_primitive_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_primitive_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_primitive_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_service.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_service.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_service.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_service.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_shared_code_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_shared_code_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_shared_code_generator.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_shared_code_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_string_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_string_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_string_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\java\java_string_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\main.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\main.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\mock_code_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\mock_code_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\package_info.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\parser.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\parser.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\parser.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\parser.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\parser_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.pb.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.pb.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\plugin.proto" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\.deps\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\.deps\protobuf_test-python_plugin_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\.deps\python_generator.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\.libs\python_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\python_generator.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\python_generator.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\python_generator.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\python_generator.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\python\python_plugin_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\subprocess.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\subprocess.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\subprocess.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\subprocess.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\test_plugin.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\zip_output_unittest.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\zip_writer.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\zip_writer.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\zip_writer.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\compiler\zip_writer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.pb.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor.pb.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor_database.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor_database.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor_database.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor_database.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor_database_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\descriptor_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\dynamic_message.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\dynamic_message.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\dynamic_message.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\dynamic_message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\dynamic_message_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set_heavy.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set_heavy.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set_heavy.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\extension_set_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_enum_reflection.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_reflection.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_reflection.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_reflection.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_reflection.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_reflection_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_util.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_util.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_util.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\generated_message_util.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\coded_stream.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\gzip_stream.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\printer.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\protobuf_test-coded_stream_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\protobuf_test-printer_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\protobuf_test-tokenizer_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\protobuf_test-zero_copy_stream_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\strtod.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\tokenizer.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\zero_copy_stream.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\zero_copy_stream_impl.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.deps\zero_copy_stream_impl_lite.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\coded_stream.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\gzip_stream.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\printer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\strtod.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\tokenizer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\zero_copy_stream.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\zero_copy_stream_impl.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\.libs\zero_copy_stream_impl_lite.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\coded_stream.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\coded_stream.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\coded_stream.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\coded_stream.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\coded_stream_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\coded_stream_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\gzip_stream.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\gzip_stream.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\gzip_stream.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\gzip_stream.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\gzip_stream_unittest.sh" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\package_info.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\printer.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\printer.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\printer.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\printer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\printer_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\strtod.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\strtod.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\strtod.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\strtod.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\tokenizer.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\tokenizer.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\tokenizer.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\tokenizer.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\tokenizer_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl_lite.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_impl_lite.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\io\zero_copy_stream_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\lite_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message_lite.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message_lite.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\message_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\package_info.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\reflection_ops.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\reflection_ops.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\reflection_ops.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\reflection_ops.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\reflection_ops_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\repeated_field.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\repeated_field.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\repeated_field.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\repeated_field.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\repeated_field_reflection_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\repeated_field_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\service.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\service.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\service.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\service.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\atomicops_internals_x86_gcc.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\atomicops_internals_x86_msvc.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\common.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\once.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\protobuf_test-common_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\protobuf_test-once_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\protobuf_test-stringprintf_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\protobuf_test-structurally_valid_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\protobuf_test-strutil_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\protobuf_test-template_util_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\protobuf_test-type_traits_unittest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\stringprintf.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\structurally_valid.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\strutil.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.deps\substitute.Plo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.dirstamp" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\atomicops_internals_x86_gcc.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\atomicops_internals_x86_msvc.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\common.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\once.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\stringprintf.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\structurally_valid.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\strutil.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\.libs\substitute.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_arm64_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_arm_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_arm_qnx.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_atomicword_compat.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_generic_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_macosx.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_mips_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_pnacl.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_tsan.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_gcc.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_gcc.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_gcc.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_msvc.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_msvc.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\atomicops_internals_x86_msvc.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\common.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\common.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\common.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\common.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\common_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\hash.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\map_util.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\once.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\once.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\once.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\once.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\once_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\platform_macros.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\shared_ptr.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\stl_util.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\stringprintf.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\stringprintf.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\stringprintf.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\stringprintf.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\stringprintf_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\structurally_valid.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\structurally_valid.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\structurally_valid.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\structurally_valid_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\strutil.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\strutil.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\strutil.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\strutil.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\strutil_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\substitute.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\substitute.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\substitute.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\substitute.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\template_util.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\template_util_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\type_traits.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\stubs\type_traits_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\test_util.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\test_util.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\test_util_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\test_util_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\bad_utf8_string" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\golden_message" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\golden_message_oneof_implemented" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\golden_packed_fields_message" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\text_format_unittest_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\text_format_unittest_data_oneof_implemented.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\text_format_unittest_data_pointy.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\text_format_unittest_data_pointy_oneof.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\text_format_unittest_extensions_data.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testdata\text_format_unittest_extensions_data_pointy.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\.deps\protobuf_lazy_descriptor_test-file.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\.deps\protobuf_lazy_descriptor_test-googletest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\.deps\protobuf_test-file.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\.deps\protobuf_test-googletest.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\.deps\test_plugin-file.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\.deps\zcgunzip.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\.deps\zcgzip.Po" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\file.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\file.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\googletest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\googletest.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\zcgunzip.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\testing\zcgzip.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\text_format.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\text_format.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\text_format.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\text_format.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\text_format_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_custom_options.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_custom_options.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_custom_options.proto" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_embed_optimize_for.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_embed_optimize_for.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_embed_optimize_for.proto" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_empty.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_empty.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import_lite.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import_lite.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import_public.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import_public.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import_public_lite.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_import_public_lite.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_lite.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_lite.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_lite_imports_nonlite.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_lite_imports_nonlite.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_mset.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_mset.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_no_generic_services.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_no_generic_services.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_optimize_for.pb.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_optimize_for.pb.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unittest_optimize_for.proto" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unknown_field_set.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unknown_field_set.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unknown_field_set.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unknown_field_set.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\unknown_field_set_unittest.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format_lite.cc" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format_lite.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format_lite.lo" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format_lite.o" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format_lite_inl.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\Matt\AndroidStudioProjects\Prototest\app\src\main\java\com\google\protobuf\wire_format_unittest.cc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Matt\Android Studio Projects\Prototest\app\src\main\java\com\example\matt\prototest\PBFetchService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/FetchTimesService.java" />
     </list>
     <ignored path="Prototest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,6 +685,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -56,28 +702,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.892857" vertical-offset="255" max-vertical-offset="1377">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#792#1261#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#2103#2104#0" expanded="true" />
-                <element signature="e#2141#2142#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.58419245" vertical-offset="0" max-vertical-offset="1139">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FetchTimesService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FetchTimesService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/FetchTimesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7176471" vertical-offset="691" max-vertical-offset="1088">
+            <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="1088">
               <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GtfsRealtime.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/transit/realtime/GtfsRealtime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315894">
+              <caret line="366" column="80" selection-start-line="366" selection-start-column="59" selection-end-line="366" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#723822#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -528,7 +1180,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4265606061651" />
+        <entry key="$PROJECT_DIR$" value="4265589805214" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -655,10 +1307,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="960" />
+    <option name="height" value="1160" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -696,16 +1346,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prototest" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -771,6 +1411,40 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="realtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prototest" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protobuf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -810,9 +1484,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1037,7 +1711,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1160" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1053,12 +1727,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32723948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37414965" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37948206" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42208776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5588889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1069,6 +1742,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1109,15 +1783,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/FetchTimesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1088">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1751">
           <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +1817,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6222" max-vertical-offset="330395">
           <caret line="366" column="80" selection-start-line="366" selection-start-column="59" selection-end-line="366" selection-end-column="80" />
-          <folding />
+          <folding>
+            <element signature="e#0#723822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,13 +1835,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1615" max-vertical-offset="1785">
           <caret line="95" column="23" selection-start-line="95" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +1851,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6222" max-vertical-offset="330395">
           <caret line="366" column="80" selection-start-line="366" selection-start-column="59" selection-end-line="366" selection-end-column="80" />
-          <folding />
+          <folding>
+            <element signature="e#0#723822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,13 +1869,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
           <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,31 +1885,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6222" max-vertical-offset="330395">
           <caret line="366" column="80" selection-start-line="366" selection-start-column="59" selection-end-line="366" selection-end-column="80" />
-          <folding />
+          <folding>
+            <element signature="e#0#723822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1224">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="746" max-vertical-offset="1751">
           <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,31 +1921,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6222" max-vertical-offset="330395">
           <caret line="366" column="80" selection-start-line="366" selection-start-column="59" selection-end-line="366" selection-end-column="80" />
-          <folding />
+          <folding>
+            <element signature="e#0#723822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1224">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1377">
           <caret line="38" column="92" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,114 +1949,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="241094" max-vertical-offset="330395">
           <caret line="14182" column="35" selection-start-line="14182" selection-start-column="27" selection-end-line="14182" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#0#723822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1224">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="675">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="765">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1190">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="765">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/transit/realtime/GtfsRealtime.java">
@@ -1416,24 +2062,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/transit/realtime/GtfsRealtime.java">
@@ -1471,23 +2111,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/transit/realtime/GtfsRealtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5916" max-vertical-offset="315877">
-          <caret line="366" column="80" selection-start-line="366" selection-start-column="59" selection-end-line="366" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1241">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -1498,24 +2130,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/FetchTimesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.892857" vertical-offset="255" max-vertical-offset="1377">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="1088">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/transit/realtime/GtfsRealtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315894">
+          <caret line="366" column="80" selection-start-line="366" selection-start-column="59" selection-end-line="366" selection-end-column="80" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#792#1261#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#0#723822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/FetchTimesService.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/matt/prototest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7176471" vertical-offset="691" max-vertical-offset="1088">
-          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.58419245" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
