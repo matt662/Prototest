@@ -12,14 +12,6 @@
 bin/
 gen/
 
-# Gradle files
-.gradle/
-build/
-/*/build/
-gradle/
-
-#idea files
-.idea/
 
 # Local configuration file (sdk path, etc)
 local.properties
